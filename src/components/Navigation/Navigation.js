@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
-export default class Navigation extends Component {
-  render() {
+export default function Navigation(){
+
     return (
       <div>
         <div>
-                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
 
                     <div className="container mt-3">
                         <ul className="nav nav-pills" role="tablist">
@@ -28,5 +28,5 @@ export default class Navigation extends Component {
             </div>
       </div>
     )
-  }
+  
 }
