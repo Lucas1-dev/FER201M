@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { Players } from '../shared/ListOfPlayer';
+import { Players } from '../../shared/ListOfPlayer';
 import PlayersPre from './PlayersPre';
-export  class Main extends Component {
+export class Main extends Component {
     constructor(){
         super();
         this.state = {

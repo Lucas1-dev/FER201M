@@ -1,0 +1,43 @@
+.container-fluid{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1%;
+}
+.nav__card {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.card{
+    width: 20rem;
+    margin: 5%;
+ 
+    border-radius: 5px 5px 0 0;
+}
+
+.card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.25)!important;
+}
+.card-body{
+    padding: 3rem 0!important;
+}
+.card-text{
+    font-size: 0.9rem;
+    padding: 0.4rem 1.9rem;
+}
+
+.overflow{
+    overflow: hidden;
+  
+}
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+.card-img-top:hover{
+    transform: scale(1.8);
+}

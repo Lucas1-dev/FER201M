@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 export default function Navigation(){
-
     return (
       <div>
         <div>
@@ -28,5 +27,4 @@ export default function Navigation(){
             </div>
       </div>
     )
-  
 }
