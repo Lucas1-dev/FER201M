@@ -1,19 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Navigation from './components/Navigation/Navigation';
 import Footer from './components/Footer/Footer';
-import Main from './components/Player/Main';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Detail from './components/Header/Detail';
+import Navigation from './components/Navigation/Navigation';
+import { Routes, Route  } from 'react-router-dom';
+import Players from './components/Player/Players';
 
 function App() {
   return (
-    <div className="App">
-
+    <>
+    
     <Navigation/>
-    <Main/>
-    <Footer/>
+<Routes>
+  <Route path='/' element={<Players/>}></Route>
+    <Route path='/detail/:id' element={<Detail/>}></Route>
+  
 
-    </div>
+</Routes>
+<Footer/>
+    </>
   );
 }
 

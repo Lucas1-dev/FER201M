@@ -8,7 +8,6 @@ export class Main extends Component {
             players: Players
         };
     }
-
     render(){
         return <PlayersPre players = {this.state.players}/>
     }
